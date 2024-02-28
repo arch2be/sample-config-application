@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+publisher:
+  queue-name: orderEventQueue
+  exchange-name: orderEventQueue-exchange
+  routing-key: order
