@@ -30,6 +30,10 @@ agent-emails:
   - example1@gmail.com
   - example2@gmail.com
 
+onapproveorder:
+  out:
+    rest:
+      url: <url to external system> 
 new-orders-queue: orderEventQueue
 server:
   port: 8090
