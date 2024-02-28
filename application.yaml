@@ -20,7 +20,7 @@ spring:
     spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
     generate-ddl: true
   rabbitmq:
-    host: localhost
+    host: rabbitmq
     port: 5672
     username: guest
     password: guest
