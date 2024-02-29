@@ -34,6 +34,6 @@ onapproveorder:
   out:
     rest:
       url: <url to external system> 
-new-orders-queue: orderEventQueue
+new-orders-queue: orderEventQueue-queue
 server:
   port: 8090
